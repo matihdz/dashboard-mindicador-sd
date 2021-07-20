@@ -8,6 +8,7 @@ export const Dashboard = () => {
 
   return (
     <div>
+      <h2>Dashboard</h2>
       {
         (error)
         ? <DashboardError error={error}/>
