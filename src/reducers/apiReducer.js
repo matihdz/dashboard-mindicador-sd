@@ -9,6 +9,11 @@ export const apiReducer = (state = {}, action) => {
         data: action.payload.data,
         error: action.payload.error,
       }
+    case types.isTimeToUpdateData:
+      return {
+        ...state,
+        isTime: action.payload.isTime
+      }
     default:
       return state;
   }

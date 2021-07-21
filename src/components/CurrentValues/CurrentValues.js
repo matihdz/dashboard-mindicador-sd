@@ -8,19 +8,19 @@ export const CurrentValues = ({indicator}) => {
     <div className="w-25 p-1" style={{minWidth: '10rem'}}>
     {
       (indicator) &&
-      <div className="card text-center">
-          <p className="card-title">{indicator.nombre}</p>
+      <div className="card text-center fw-bold bg-dark">
+          <p className="card-title text-white-50 pt-1">{indicator.nombre}</p>
           <div className="card-footer">
           {
             (indicator.unidad_medida === 'Porcentaje') &&
-            <div>
+            <div className="text-secondary">
               {(indicator.valor) + ' '}
               <FontAwesomeIcon icon={faPercentage}/>
             </div>
           }
           {
             (indicator.unidad_medida === 'Dólar' || indicator.unidad_medida === 'Pesos') &&
-            <div>
+            <div className="text-secondary">
               <FontAwesomeIcon icon={faDollarSign}/>
               {' ' + indicator.valor} {indicator.unidad_medida}
             </div>

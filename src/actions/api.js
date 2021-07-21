@@ -18,6 +18,13 @@ export const getAllData = ( url ) => {
   }
 }
 
+export const isTimeToUpdateData = (isTime) => ({
+  type: types.isTimeToUpdateData,
+  payload: {
+    isTime,
+  }
+})
+
 const setDashboardInfo = (data, error) => ({
   type: types.setDashboardInfo,
   payload: {
