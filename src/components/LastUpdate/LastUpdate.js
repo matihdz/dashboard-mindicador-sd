@@ -9,7 +9,6 @@ export const LastUpdate = () => {
 
   useEffect(() => {
     if(data){
-      setLastUpdate(0)
       const intervalId = setInterval( () => {
         let currentMoment = new Date();
         currentMoment.setMinutes(currentMoment.getMinutes() + 1)
@@ -17,6 +16,7 @@ export const LastUpdate = () => {
       }, 60000)
       return () => {
         clearInterval(intervalId);
+        setLastUpdate(0)
       }
     }
   }, [data, setLastUpdate, isTime])

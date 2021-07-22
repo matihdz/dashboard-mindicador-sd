@@ -25,7 +25,7 @@ export const isTimeToUpdateData = (isTime) => ({
   }
 })
 
-const setDashboardInfo = (data, error) => ({
+export const setDashboardInfo = (data, error) => ({
   type: types.setDashboardInfo,
   payload: {
     data,

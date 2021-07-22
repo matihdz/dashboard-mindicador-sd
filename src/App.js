@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getAllData, isTimeToUpdateData } from './actions/api';
 import { Sidebar } from './components/Sidebar/Sidebar';
 
-const anHourInMiliseconds = 80000;
+const anHourInMiliseconds = 3600000;
 
 export const App = () => {
   const dispatch = useDispatch();
