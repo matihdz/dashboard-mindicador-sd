@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dashboard-mindicador-sd/static/css/main.224bb9e5.chunk.css",
+    "main.js": "/dashboard-mindicador-sd/static/js/main.0cd571b5.chunk.js",
+    "main.js.map": "/dashboard-mindicador-sd/static/js/main.0cd571b5.chunk.js.map",
+    "runtime-main.js": "/dashboard-mindicador-sd/static/js/runtime-main.1bc58628.js",
+    "runtime-main.js.map": "/dashboard-mindicador-sd/static/js/runtime-main.1bc58628.js.map",
+    "static/css/2.4be38407.chunk.css": "/dashboard-mindicador-sd/static/css/2.4be38407.chunk.css",
+    "static/js/2.3dd915c5.chunk.js": "/dashboard-mindicador-sd/static/js/2.3dd915c5.chunk.js",
+    "static/js/2.3dd915c5.chunk.js.map": "/dashboard-mindicador-sd/static/js/2.3dd915c5.chunk.js.map",
+    "index.html": "/dashboard-mindicador-sd/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/dashboard-mindicador-sd/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.224bb9e5.chunk.css.map": "/dashboard-mindicador-sd/static/css/main.224bb9e5.chunk.css.map",
+    "static/js/2.3dd915c5.chunk.js.LICENSE.txt": "/dashboard-mindicador-sd/static/js/2.3dd915c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bc58628.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.3dd915c5.chunk.js",
+    "static/css/main.224bb9e5.chunk.css",
+    "static/js/main.0cd571b5.chunk.js"
+  ]
+}

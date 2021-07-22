@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,iBAAkB,CAClB,wBAAyB,CACzB,wBAAiB,CAAjB,oBAAiB,CAAjB,gBACF","file":"main.224bb9e5.chunk.css","sourcesContent":["html {\r\n  overflow-x: hidden;\r\n  background-color: #212529;\r\n  user-select: none;\r\n}"]}
